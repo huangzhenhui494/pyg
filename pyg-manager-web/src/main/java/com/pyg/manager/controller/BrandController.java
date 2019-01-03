@@ -9,6 +9,10 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.pyg.manager.service.BrandService;
 import com.pyg.pojo.TbBrand;
 
+/**
+ * @author huangzhenhui
+ * @date 2019-01-03 23:57
+ */
 @RestController
 @RequestMapping("/brand")
 public class BrandController {
