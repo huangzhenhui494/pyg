@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div id="app">
+
+        <!--如果要使用组件,直接,把组件的名称,以 HTML 标签的形式,引入到页面中-->
+        <mycom1></mycom1>
+
+    </div>
+
+</div>
+<script>
+
+    // 1.1 使用Vue.extend 来创建全局的Vue组件
+    // var com1 = Vue.extend({
+    //     template: '<h3>这是使用Vue.extend 创建的组件</h3>'  // 通过 template属性,制定了组件要展示的HTML结构
+    // })
+
+    // 1.2 使用Vue.component('z组件的名称',创建出来的组件模板对象)
+    // 如果使用 Vue.component 定义全局组件时, 如果使用驼峰命名,则需要变成my-com1
+    // Vue.component('myCom1',com1)
+    // 如果不使用驼峰,直接用mycom1引用
+    // Vue.component('mycom1',com1)
+
+
+    // Vue.component 第一个参数:组件的名称,将来在引用组件的时候,就是一个 标签形式 来引入它的
+    // 第二个参数: Vue.extend 创建的组件,其中template 就是将来要展示HTML的内容
+    Vue.component('mycom1',Vue.extend({
+        template: '<h3>这是使用Vue.extend 创建的组件</h3>'
+    }))
+
+
+
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{},
+        methods:{}
+    })
+
+
+</script>
+</body>
+</html>

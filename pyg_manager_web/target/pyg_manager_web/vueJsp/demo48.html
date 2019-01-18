@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+    <!-- 1. 安装vue-router -->
+    <script src="../js/vueJs/vue-router-3.0.1.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div id="app">
+        <!--分析-->
+        <!-- 1.我们要监听到文本框数据的改变,这样才能知道,什么时候去拼出一个fullname -->
+        <!-- 2.如何监听到 文本框数据的改变 -->
+        <input type="text" v-model="firstName" @keyup="getFullname">
+        <input type="text" v-model="lastName" @keyup='getFullname'>
+        <input type="text" v-model="fullName">
+    </div>
+
+</div>
+<script>
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{
+            firstName: '',
+            lastName: '',
+            fullName: ''
+        },
+        methods:{
+            getFullname(){
+                this.fullName = this.firstName + '-' + this.lastName
+            }
+        }
+    })
+
+
+</script>
+</body>
+</html>

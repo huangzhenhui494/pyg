@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+    <style>
+        .v-enter,
+        .v-leave-to{
+            opacity: 0;
+            transform: translate(150px);
+        }
+        .v-enter-active,
+        .v-leave-active{
+            transition: all 0.5s ease;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div id="app">
+        <a href="" @click.prevent="comName='login'">登录</a>
+        <a href="" @click.prevent="comName='register'">注册</a>
+
+        <!--通过 mode 属性,设置组件切换时候到的 模式-->
+        <transition mode="out-in">
+            <component :is="comName"></component>
+        </transition>
+
+    </div>
+
+</div>
+<script>
+
+    // 组件名称是字符串
+    Vue.component('login',{
+        template:'<h3>登录组件</h3>>'
+    })
+
+    Vue.component('register',{
+        template:'<h3>注册组件</h3>>'
+    })
+
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{
+            comName:'login' // 当前 component中的 :is 绑定的组件的名称
+        },
+        methods:{}
+    })
+
+
+</script>
+</body>
+</html>

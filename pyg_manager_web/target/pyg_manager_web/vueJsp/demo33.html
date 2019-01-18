@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <template id="templ">
+        <div>
+            <input type="button" value="+1" @click="increment">
+            <h3>{{count}}</h3>
+        </div>
+    </template>
+
+    <div id="app">
+        <counter></counter>
+        <hr>
+        <counter></counter>
+        <hr>
+        <counter></counter>
+    </div>
+
+</div>
+<script>
+    // 全局对象
+    var dataObj = {count: 0}
+    // 这是一个计数器的组件,身上有个按钮,每当点击按钮,让data中的count值+1
+    Vue.component('counter',{
+        template: '#templ',
+        data:function () {
+            // 返回了一个全局对象
+            // 所以要在内部 return {count : 0} 这样才不会出问题
+            return dataObj
+        },
+        methods:{
+            increment(){
+                this.count +=1
+            }
+        }
+    })
+
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{},
+        methods:{}
+    })
+
+
+</script>
+</body>
+</html>

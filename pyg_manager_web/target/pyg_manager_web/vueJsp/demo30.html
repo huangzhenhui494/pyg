@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div id="app">
+        <!--还是使用 标签形式,引入自己的组件-->
+        <mycom2></mycom2>
+    </div>
+
+</div>
+<script>
+
+    Vue.component('mycom2',{
+        // 注意: 不论是哪种方式创建出来的组件,组件的 template 属性指向的模板内容,必须有且只有一个唯一的根元素
+        template: '<div><h3>这是直接使用Vue.component 创建出来的组件</h3><span>123</span></div>'
+    })
+
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{},
+        methods:{}
+    })
+
+
+</script>
+</body>
+</html>

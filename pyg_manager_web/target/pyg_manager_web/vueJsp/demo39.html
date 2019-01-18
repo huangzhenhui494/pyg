@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div id="app">
+        <!-- 父组件,可以在引用子组件的时候,通过属性绑定(v-bind:)的形式,把需要传递给
+        子组件的数据,以属性绑定的形式传递到子组件内部,供子组件使用-->
+        <com1 v-bind:parentmsg="msg"></com1>
+    </div>
+
+</div>
+<script>
+
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{
+            msg: '123 父组件中的数据'
+        },
+        methods:{},
+        components:{
+            // 结论:经过演示,发现,子组件中默认无法访问到父组件中的 data 上的数据和 methods 中的方法
+            //
+            com1:{
+                data(){  // 注意:子组件中的 data数据,并不是通过父组件传递过来的,而是通过子组件自身
+                         // 私有的,比如:子组件通过Ajax,请求回来的数据,都可以放到data身上;
+                         // data中的数据可写可读,而props中的数据是只读的
+                  return{
+                      title:'123',
+                      content:'qqq'
+                  }
+                },
+                template: '<h1>这是子组件 --- {{ parentmsg }}</h1>',
+                // 注意: 组件中的所有 props 中的数据,都是通过父组件传递给子组件的
+                props:['parentmsg'],  // 把父组件传递过来的 parentmsg 属性,先在 props 数组中,定义一下,
+                                      // 这样,才能使用这个数据
+                directives:{},
+                filters:{},
+                components: {}
+            }
+        }
+    })
+
+
+</script>
+</body>
+</html>

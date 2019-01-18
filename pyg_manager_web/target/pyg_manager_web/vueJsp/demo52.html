@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+    <!-- 1. 安装vue-router -->
+    <script src="../js/vueJs/vue-router-3.0.1.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div id="app"></div>
+
+</div>
+<script>
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{},
+        methods:{}
+    })
+
+    // methods:表示方法,更注重逻辑(获取用户列表等等)
+        // 方法调用
+    // computed: return , 简单计算 , 结果会被缓存,除非其依赖的属性发生了变化,当做普通的属性使用
+        // 引用数据,操作,成为新数据
+    // watch: 对象,键是需要观察的值,值是回调函数.  newVal和oldVal ,在回调函数中操作逻辑.可以理解为methods和computed的结合体
+        //  注重监听,虚拟值($route.path)
+
+</script>
+</body>
+</html>

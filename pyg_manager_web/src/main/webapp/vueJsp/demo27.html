@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+
+    <style>
+
+        .ball{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div id="app">
+        <input type="button" value="快来" @click="flag =! flag">
+        <!--1.使用transition元素把小球包裹起来-->
+        <transition
+            @before-enter="beforeEnter"
+            @enter="enter"
+            @after-enter="afterEnter">
+            <div class="ball" v-show="flag"></div>
+        </transition>
+
+    </div>
+
+</div>
+<script>
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{
+            flag: false
+        },
+        methods:{
+            // 注意: 动画钩子函数的第一个参数: el 表示,要执行动画的那个元素,是个原生的 JS DOM对象
+            // 可以认为el是通过document.getElementById('')得到的原生 JS DOM对象
+            beforeEnter(el){
+                // beforeEnter表示动画入场之前,此时动画尚未开始,可以设置开始动画之前的起始样式(位置状态)
+                // 设置其实位置
+                el.style.transform = "translate(0,0)"
+            },
+            enter(el,done){
+                // 这句话,没有实际作用,但是如果不写,出不来动画效果
+                // 可以认为  el.offsetWidth 会强制动画刷新
+                el.offsetWidth
+                // enter 表示动画开始之后的样式,这里可以设置小球完成动画之后的结束状态
+                el.style.transform = "translate(150px,450px)"
+                el.style.transition = "all 1s ease"
+                // 这里的 done 其实就是afterEnter这个函数,也就是说:done是一个函数(afterenter)的引用
+                done()
+            },
+            afterEnter(el){
+                // 动画完成之后会调用的函数
+                this.flag = !this.flag;
+            }
+        }
+    })
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--创建视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--导入jquery文件-->
+    <!--jquery操作dom,而在vue中不需要-->
+    <script type="text/javascript" src="../js/vueJs/jquery-1.11.0.min.js" ></script>
+    <!--导入vue-->
+    <script src="../js/vueJs/vue-2.4.0.js"></script>
+    <!--导入bootstrap.css文件-->
+    <link rel="stylesheet" href="../css/vueCss/bootstrap.css" />
+    <!--导入bootstrap.js-->
+    <script type="text/javascript" src="../js/vueJs/bootstrap.js" ></script>
+    <!--导入animate-->
+    <link rel="stylesheet" href="../css/vueCss/animate.css">
+    <!-- 1. 安装vue-router -->
+    <script src="../js/vueJs/vue-router-3.0.1.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div id="app"></div>
+
+</div>
+<script>
+    //创建Vue实例,得到viewModel
+    var vm = new Vue({
+        el:'#app',
+        data:{},
+        methods:{}
+    })
+
+    // DOS窗口  npm i nrm -g
+    // 查看 nrm ls
+    /**(只是一些地址)
+       * npm ---- https://registry.npmjs.org/  原版,下面的都是镜像  (内容完全一样),但是npm服务器在国外,慢
+         cnpm --- http://r.cnpmjs.org/              国内快  , 常用镜像地址
+         taobao - https://registry.npm.taobao.org/  国内快  , 常用镜像地址
+         nj ----- https://registry.nodejitsu.com/
+         rednpm - http://registry.mirror.cqupt.edu.cn/
+         npmMirror  https://skimdb.npmjs.com/registry/
+         edunpm - http://registry.enpmjs.org/
+     */
+    // 这些知识一个地址
+    // 使用 nrm use npm ,切换*的位置到要换的位置
+
+    // 注意:nrm只是单纯地提供了几个常用的下载包的url地址,并能够让我们在这几个地址之间方便地切换
+    // 但是我们每次装包的时候,使用的装包工具都是使用npm
+
+    // npm i cnpm -g  ,跟上面的cnpm不一样,上面是地址,下面这个是下包的工具cnpm
+
+
+</script>
+</body>
+</html>
