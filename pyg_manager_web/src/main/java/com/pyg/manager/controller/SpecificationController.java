@@ -28,7 +28,7 @@ public class SpecificationController {
 	 * @return
 	 */
 	@RequestMapping("/findAll")
-	public List<TbSpecification> findAll(){
+	public List<TbSpecification> findAll(){			
 		return specificationService.findAll();
 	}
 	

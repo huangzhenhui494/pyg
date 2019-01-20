@@ -1,7 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15a01594-c8f9-4591-826b-91a37d11fef2" name="Default Changelist" comment="" />
+    <list default="true" id="15a01594-c8f9-4591-826b-91a37d11fef2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_common/target/pyg_common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_common/target/pyg_common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbTypeTemplateMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbTypeTemplateMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/src/main/resources/com/pyg/mapper/TbSpecificationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/src/main/resources/com/pyg/mapper/TbSpecificationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbAreasMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbBrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbCitiesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbContentCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbFreightTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbGoodsDescMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbGoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbItemCatMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbOrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbPayLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbProvincesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbSellerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbSpecificationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbSpecificationOptionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbTypeTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com.pyg.mapper/TbUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com/pyg/mapper/TbSpecificationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/target/classes/com/pyg/mapper/TbSpecificationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/classes/com/pyg/mapper/TbSpecificationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/target/classes/com/pyg/mapper/TbSpecificationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_dao/target/pyg_dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_dao/target/pyg_dao.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsDescService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsDescService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/ItemCatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SellerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SellerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationOptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationOptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/TypeTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/TypeTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/classes/com/pyg/manager/service/SpecificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/classes/com/pyg/manager/service/SpecificationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/classes/com/pyg/manager/service/TypeTemplateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/classes/com/pyg/manager/service/TypeTemplateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/pyg_manager_interface.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/target/pyg_manager_interface.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsDescServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsDescServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemCatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SellerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SellerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/TypeTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/TypeTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/GoodsDescServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/GoodsDescServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/ItemCatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/ItemCatServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/SellerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/SellerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/SpecificationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/SpecificationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/TypeTemplateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/classes/com/pyg/manager/service/impl/TypeTemplateServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service.war" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/GoodsDescServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/GoodsDescServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/ItemCatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/ItemCatServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/SellerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/SellerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/SpecificationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/SpecificationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/TypeTemplateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/classes/com/pyg/manager/service/impl/TypeTemplateServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/lib/pyg_common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/lib/pyg_common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/lib/pyg_dao-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/lib/pyg_dao-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/lib/pyg_manager_interface-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/lib/pyg_manager_interface-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/lib/pyg_pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/pyg_manager_service/WEB-INF/lib/pyg_pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/tomcat/logs/access_log.2019-01-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/tomcat/logs/access_log.2019-01-11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/tomcat/logs/access_log.2019-01-12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/tomcat/logs/access_log.2019-01-13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/tomcat/logs/access_log.2019-01-14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/tomcat/logs/access_log.2019-01-16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/target/tomcat/logs/access_log.2019-01-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsDescController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsDescController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemCatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SellerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationOptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationOptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/content_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/content_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/item_cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/item_cat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/seller.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/seller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/seller_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/seller_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/specification.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/specification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/type_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/admin/type_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/css/vueCss/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/css/vueCss/bootstrap-3.3.7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/css/vueCss/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/css/vueCss/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/js/vueJs/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/js/vueJs/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/js/vueJs/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/js/vueJs/vue-2.4.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/js/vueJs/vue-resource-1.3.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/js/vueJs/vue-router-3.0.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/src/main/webapp/js/vueJs/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web.war" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/classes/com/pyg/filter/CorsFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/lib/pyg_common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/lib/pyg_common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/lib/pyg_dao-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/lib/pyg_dao-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/lib/pyg_manager_interface-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/lib/pyg_manager_interface-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/lib/pyg_pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/WEB-INF/lib/pyg_pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/content_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/content_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/item_cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/item_cat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/seller.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/seller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/seller_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/seller_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/specification.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/specification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/type_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/pyg_manager_web/admin/type_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-18" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/logs/access_log.2019-01-18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/vueJsp/demo1_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/vueJsp/demo1_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/vueJsp/demo9_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/vueJsp/demo9_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_pojo/target/classes/com/pyg/vo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_pojo/target/classes/com/pyg/vo/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_pojo/target/pyg_pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_pojo/target/pyg_pojo.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/ItemCatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/TypeTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/TypeTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/goodsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/typeTemplateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/typeTemplateService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/ItemCatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/SellerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/SellerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/SellerLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/SellerLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/TypeTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/classes/com/pyg/shop/controller/TypeTemplateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web.war" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/ItemCatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/SellerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/SellerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/SellerLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/SellerLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/TypeTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/classes/com/pyg/shop/controller/TypeTemplateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/lib/pyg_common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/lib/pyg_common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/lib/pyg_dao-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/lib/pyg_dao-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/lib/pyg_manager_interface-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/lib/pyg_manager_interface-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/lib/pyg_pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/WEB-INF/lib/pyg_pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/admin/goods_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/js/controller/goodsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/js/service/brandService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/js/service/typeTemplateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/pyg_shop_web/js/service/typeTemplateService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/tomcat/logs/access_log.2019-01-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg_shop_web/target/tomcat/logs/access_log.2019-01-18" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg_shop_web/target/tomcat/logs/access_log.2019-01-18" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../pyg_common/target/" />
@@ -42,56 +230,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Goods.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="63">
+              <caret line="229" column="53" lean-forward="true" selection-start-line="229" selection-start-column="53" selection-end-line="229" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbGoodsDesc.java">
+        <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <caret line="85" column="41" lean-forward="true" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods_edit.html">
+        <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2655">
-              <caret line="177" column="50" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="50" />
+            <state relative-caret-position="305">
+              <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+              <folding>
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Specification.java">
+        <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="260">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbGoods.java">
+        <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/BrandController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="269">
+              <caret line="106" column="31" lean-forward="true" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -99,33 +282,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/goodsController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2010">
-              <caret line="134" column="60" selection-start-line="134" selection-start-column="60" selection-end-line="134" selection-end-column="60" />
+            <state relative-caret-position="225">
+              <caret line="90" column="31" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="31" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/typeTemplateService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/TypeTemplateController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/goodsService.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -141,28 +301,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>0.0.1-SNAPSHO</find>
-      <find>0.0.1-SNAPSHOT</find>
-      <find>1.0-SNAPSHOT</find>
-      <find>selectByExample</find>
-      <find>&quot;jsp</find>
-      <find>name</find>
-      <find>id</find>
-      <find>ctime</find>
-      <find>add</find>
-      <find>item</find>
       <find>entity</find>
       <find>v-cloak</find>
       <find>matched</find>
-      <find>list</find>
       <find>80</find>
-      <find>ng-options</find>
       <find>模板</find>
       <find>监控</find>
       <find>options</find>
-      <find>1</find>
       <find>扩展</find>
       <find>customItem</find>
+      <find>brand</find>
+      <find>findSpecOptionList</find>
+      <find>网络</find>
+      <find>规格</find>
+      <find>as</find>
+      <find>specIds</find>
+      <find>ng-options</find>
+      <find>specId</find>
+      <find>findSpecOptionListById</find>
+      <find>id</find>
+      <find>selectByPrimaryKey</find>
+      <find>1</find>
+      <find>specificationItems</find>
+      <find>屏幕尺寸</find>
+      <find>envnt</find>
+      <find>spec</find>
+      <find>item</find>
+      <find>defa</find>
+      <find>isEnableSpec</find>
+      <find>default</find>
+      <find>list</find>
     </findStrings>
     <replaceStrings>
       <replace>1.0-SNAPSHOT</replace>
@@ -174,25 +342,12 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbAddressMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbAreasMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbBrandMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbCitiesMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbContentCategoryMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbContentMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbFreightTemplateMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbGoodsDescMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbGoodsMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbItemCatMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbOrderItemMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbOrderMapper.java" />
         <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbPayLogMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbTypeTemplateMapper.java" />
         <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationOptionMapper.java" />
         <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbUserMapper.java" />
         <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/BrandService.java" />
@@ -200,35 +355,49 @@
         <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SellerService.java" />
         <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationOptionService.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationService.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/TypeTemplateService.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/TypeTemplateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemCatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsDescServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsDescController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SellerController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationOptionController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java" />
-        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SellerServiceImpl.java" />
         <option value="$PROJECT_DIR$/../pyg_manager_web/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/resources/spring/spring-security.xml" />
         <option value="$PROJECT_DIR$/../pyg_shop_web/pom.xml" />
-        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/brandService.js" />
-        <option value="$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Goods.java" />
-        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/goodsController.js" />
-        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods_edit.html" />
+        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/ItemCatService.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SellerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemCatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsDescServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/service/impl/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SellerController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsDescController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationOptionController.java" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationService.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/TypeTemplateService.java" />
+        <option value="$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbTypeTemplateMapper.java" />
+        <option value="$PROJECT_DIR$/../pyg_dao/src/main/resources/com/pyg/mapper/TbSpecificationMapper.xml" />
+        <option value="$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbTypeTemplate.java" />
         <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/TypeTemplateController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/TypeTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/typeTemplateService.js" />
+        <option value="$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Goods.java" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerController.java" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerLoginController.java" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods_edit.html" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/goodsController.js" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods.html" />
+        <option value="$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -251,6 +420,11 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -272,64 +446,33 @@
     <option name="jreName" value="1.7" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="434" />
-    <option name="width" value="939" />
+    <option name="x" value="502" />
+    <option name="width" value="871" />
     <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_parent" type="58d84e3e:PackageViewProjectNode" />
+              <item name="pyg_shop_web" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,29 +480,29 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547739895620" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Git/bin/git.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547947571992" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\huangzhenhui\IdeaProjects\pinyougou\pyg_dao\src\main\resources\com\pyg\mapper" />
-      <recent name="D:\huangzhenhui\IdeaProjects\pinyougou\pyg_dao\src\main\resources\com.pyg.mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\huangzhenhui\IdeaProjects\pyg\pyg_manager\pyg_manager_interface\src\main\java\com\pyg\manager\service" />
+      <recent name="D:\huangzhenhui\IdeaProjects\pyg\pyg_manager\pyg_manager_service\src\main\java\com\pyg\manager\service\impl" />
+      <recent name="D:\huangzhenhui\IdeaProjects\pyg\pyg_manager_web\src\main\java\com\pyg\manager\controller" />
+      <recent name="D:\huangzhenhui\IdeaProjects\pyg\pyg_manager_web\src\main\webapp" />
+      <recent name="D:\huangzhenhui\IdeaProjects\pyg\pyg_shop_web\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pyg.shop.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\huangzhenhui\IdeaProjects\pinyougou\pyg_shop_web\src\main\webapp\js\service" />
-      <recent name="D:\huangzhenhui\IdeaProjects\pinyougou\pyg_shop_web\src\main\webapp\admin" />
-      <recent name="D:\huangzhenhui\IdeaProjects\pinyougou\pyg_shop_web\src\main\webapp\js\controller" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\huangzhenhui\IdeaProjects\pinyougou\pyg_dao\src\main\resources\com\pyg\mapper" />
-      <recent name="D:\huangzhenhui\IdeaProjects\pinyougou\pyg_shop_web\src\main\resources\spring" />
+      <recent name="D:\huangzhenhui\IdeaProjects\pinyougou\pyg_dao\src\main\resources\com.pyg.mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -374,7 +517,107 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.pyg_shop_web [tomcat7:run]">
+  <component name="RunManager" selected="Maven.pyg_pojo [install]">
+    <configuration name="pyg_common [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../pyg_common" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="pyg_dao [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../pyg_dao" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="pyg_manager_interface [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../pyg_manager/pyg_manager_interface" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="pyg_manager_service [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../pyg_manager/pyg_manager_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="pyg_manager_service [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -400,6 +643,31 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="pyg_manager_web [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../pyg_manager_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="pyg_manager_web [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -420,6 +688,85 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/../pyg_manager_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="pyg_parent [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map>
+                <entry key="dev" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="pyg_pojo [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map>
+                <entry key="dev" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../pyg_pojo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="pyg_shop_web [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../pyg_shop_web" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -452,8 +799,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.pyg_manager_web [tomcat7:run]" />
         <item itemvalue="Maven.pyg_manager_service [tomcat7:run]" />
+        <item itemvalue="Maven.pyg_manager_web [tomcat7:run]" />
       </list>
     </recent_temporary>
   </component>
@@ -478,17 +825,23 @@
       <workItem from="1547606061767" duration="14933000" />
       <workItem from="1547653841387" duration="11925000" />
       <workItem from="1547776844559" duration="1374000" />
+      <workItem from="1547780813433" duration="334000" />
+      <workItem from="1547781205892" duration="334000" />
+      <workItem from="1547781590970" duration="2885000" />
+      <workItem from="1547792304268" duration="26936000" />
+      <workItem from="1547868849928" duration="10182000" />
+      <workItem from="1547904045491" duration="7638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109542000" />
+    <option name="totallyTimeSpent" value="157851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="0" width="939" height="735" extended-state="0" />
+    <frame x="605" y="0" width="768" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49545455" visible="true" weight="0.2662116" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49545455" weight="0.15128593" />
       <window_info id="Structure" order="1" sideWeight="0.50454545" side_tool="true" weight="0.31283423" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -500,27 +853,27 @@
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32871974" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32871974" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4979757" weight="0.23875433" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.21972318" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4979757" weight="0.28327644" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49881518" visible="true" weight="0.24436742" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020243" side_tool="true" weight="0.24913494" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32879046" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32879046" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5011848" side_tool="true" weight="0.42634314" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020243" side_tool="true" weight="0.24913494" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32730561" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32879046" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24831308" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24810892" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32928476" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32819906" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.4237968" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.40393344" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,312 +884,394 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbUser.java">
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationOptionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbUserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/ItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SellerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/service/impl/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/resources/config/resources.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/resources/config/client.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="64" selection-start-line="64" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsDescService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/ItemCatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SellerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationOptionService.java">
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationOptionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SellerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsDescServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="129" column="58" selection-start-line="129" selection-start-column="58" selection-end-line="129" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/service/impl/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsDescController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SellerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-701">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationOptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+          <folding>
+            <element signature="e#4793#4794#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="263">
+          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/TypeTemplateService.java">
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/pom.xml">
+    <entry file="jar://$PROJECT_DIR$/../../../Java/jdk1.7.0_51/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="127">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+          <folding>
+            <element signature="e#5889#5890#0" expanded="true" />
+            <element signature="e#5916#5917#0" expanded="true" />
+            <element signature="e#9321#9322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="44" selection-start-line="40" selection-start-column="4" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="77" column="21" selection-start-line="73" selection-start-column="7" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/rpc/proxy/InvokerInvocationHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbBrandMapper.java">
+    <entry file="file://$PROJECT_DIR$/../pyg_dao/src/main/resources/com/pyg/mapper/TbSpecificationMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="333">
+          <caret line="81" column="11" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_dao/src/main/resources/com/pyg/mapper/TbAreasMapper.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_dao/src/main/resources/com/pyg/mapper/TbBrandMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="109">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_dao/src/main/resources/com/pyg/mapper/TbAddressMapper.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-905">
-          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+        <state relative-caret-position="244">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbTypeTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+        <state relative-caret-position="271">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/brandService.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/brandController.js" />
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/sellerController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/brandService.js" />
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods.html">
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/TypeTemplateServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        <state relative-caret-position="1605">
+          <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Goods.java">
+    <entry file="file://$PROJECT_DIR$/../pyg_dao/src/main/java/com/pyg/mapper/TbTypeTemplateMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbGoodsDesc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2655">
-          <caret line="177" column="50" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Specification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/goodsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="134" column="60" selection-start-line="134" selection-start-column="60" selection-end-line="134" selection-end-column="60" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/typeTemplateService.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/TypeTemplateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/vo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/TypeTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/rpc/proxy/javassist/JavassistProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/SellerLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_pojo/src/main/java/com/pyg/pojo/TbBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/uploadService.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/service/goodsService.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/TypeTemplateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/js/controller/goodsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="90" column="31" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/webapp/admin/goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="85" column="41" lean-forward="true" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_shop_web/src/main/java/com/pyg/shop/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+          <folding>
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager_web/src/main/java/com/pyg/manager/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="106" column="31" lean-forward="true" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="229" column="53" lean-forward="true" selection-start-line="229" selection-start-column="53" selection-end-line="229" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -898,7 +1333,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20344828" />
+                <option value="0.2" />
                 <option value="0.6" />
               </list>
             </option>

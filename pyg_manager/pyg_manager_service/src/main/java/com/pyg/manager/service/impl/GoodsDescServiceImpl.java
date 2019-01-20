@@ -7,6 +7,7 @@ import com.pyg.manager.service.GoodsDescService;
 import com.pyg.mapper.TbGoodsDescMapper;
 import com.pyg.pojo.TbGoodsDesc;
 import com.pyg.pojo.TbGoodsDescExample;
+import com.pyg.pojo.TbGoodsDescExample.Criteria;
 import com.pyg.utils.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -84,7 +85,7 @@ public class GoodsDescServiceImpl implements GoodsDescService {
 		PageHelper.startPage(pageNum, pageSize);
 		
 		TbGoodsDescExample example=new TbGoodsDescExample();
-		TbGoodsDescExample.Criteria criteria = example.createCriteria();
+		Criteria criteria = example.createCriteria();
 		
 		if(goodsDesc!=null){			
 						if(goodsDesc.getIntroduction()!=null && goodsDesc.getIntroduction().length()>0){

@@ -1,17 +1,17 @@
 package com.pyg.shop.controller;
-import java.util.List;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.pyg.manager.service.GoodsService;
+import com.pyg.pojo.TbGoods;
+import com.pyg.utils.PageResult;
+import com.pyg.utils.PygResult;
+import com.pyg.vo.Goods;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.pyg.pojo.TbGoods;
-import com.pyg.manager.service.GoodsService;
 
-import com.pyg.utils.PageResult;
-import com.pyg.utils.PygResult;
-import com.pyg.vo.Goods;
+import java.util.List;
 /**
  * controller
  * @author Administrator
@@ -21,7 +21,7 @@ import com.pyg.vo.Goods;
 @RequestMapping("/goods")
 public class GoodsController {
 
-	@Reference
+	@Reference(timeout = 1000000)
 	private GoodsService goodsService;
 	
 	/**
@@ -39,7 +39,7 @@ public class GoodsController {
 	 * @return
 	 */
 	@RequestMapping("/findPage")
-	public PageResult  findPage(int page,int rows){			
+	public PageResult  findPage(int page,int rows){
 		return goodsService.findPage(page, rows);
 	}
 	
@@ -99,17 +99,22 @@ public class GoodsController {
 			return new PygResult(false, "删除失败");
 		}
 	}
-	
-		/**
+
+	/**
 	 * 查询+分页
-	 * @param brand
+	 * @param goods
 	 * @param page
 	 * @param rows
 	 * @return
 	 */
 	@RequestMapping("/search")
 	public PageResult search(@RequestBody TbGoods goods, int page, int rows  ){
-		return goodsService.findPage(goods, page, rows);		
+		// 根据商家id查询
+		String sellerId = SecurityContextHolder.getContext().getAuthentication().getName();
+		// 把商家id设置参数对象goods
+		goods.setSellerId(sellerId);
+		return goodsService.findPage(goods, page, rows);
 	}
-	
+
+
 }

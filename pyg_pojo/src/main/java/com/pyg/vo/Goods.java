@@ -23,6 +23,10 @@ public class Goods implements Serializable {
 	// 商品列表
 	private List<TbItem> itemList;
 
+	public static long getSerialVersionUID() {
+		return serialVersionUID;
+	}
+
 	public TbGoods getGoods() {
 		return goods;
 	}
@@ -46,6 +50,4 @@ public class Goods implements Serializable {
 	public void setItemList(List<TbItem> itemList) {
 		this.itemList = itemList;
 	}
-	
-	
 }

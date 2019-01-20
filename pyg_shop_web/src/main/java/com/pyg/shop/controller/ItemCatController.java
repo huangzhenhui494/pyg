@@ -1,15 +1,15 @@
 package com.pyg.shop.controller;
-import java.util.List;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.pyg.manager.service.ItemCatService;
+import com.pyg.pojo.TbItemCat;
+import com.pyg.utils.PageResult;
+import com.pyg.utils.PygResult;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.pyg.pojo.TbItemCat;
-import com.pyg.manager.service.ItemCatService;
 
-import com.pyg.utils.PageResult;
-import com.pyg.utils.PygResult;
+import java.util.List;
 /**
  * controller
  * @author Administrator
@@ -19,7 +19,7 @@ import com.pyg.utils.PygResult;
 @RequestMapping("/itemCat")
 public class ItemCatController {
 
-	@Reference
+	@Reference(timeout = 1000000)
 	private ItemCatService itemCatService;
 	
 	/**
@@ -98,10 +98,10 @@ public class ItemCatController {
 			return new PygResult(false, "删除失败");
 		}
 	}
-	
-		/**
-	 * 查询+分页
-	 * @param brand
+
+	/**
+	 *
+	 * @param itemCat
 	 * @param page
 	 * @param rows
 	 * @return

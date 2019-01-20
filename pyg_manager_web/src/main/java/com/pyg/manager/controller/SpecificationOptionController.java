@@ -27,7 +27,7 @@ public class SpecificationOptionController {
 	 * @return
 	 */
 	@RequestMapping("/findAll")
-	public List<TbSpecificationOption> findAll(){
+	public List<TbSpecificationOption> findAll(){			
 		return specificationOptionService.findAll();
 	}
 	
@@ -101,7 +101,7 @@ public class SpecificationOptionController {
 	
 		/**
 	 * 查询+分页
-	 * @param brand
+	 * @param
 	 * @param page
 	 * @param rows
 	 * @return

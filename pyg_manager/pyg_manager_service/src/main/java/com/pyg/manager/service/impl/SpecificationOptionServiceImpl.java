@@ -7,6 +7,7 @@ import com.pyg.manager.service.SpecificationOptionService;
 import com.pyg.mapper.TbSpecificationOptionMapper;
 import com.pyg.pojo.TbSpecificationOption;
 import com.pyg.pojo.TbSpecificationOptionExample;
+import com.pyg.pojo.TbSpecificationOptionExample.Criteria;
 import com.pyg.utils.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -84,7 +85,7 @@ public class SpecificationOptionServiceImpl implements SpecificationOptionServic
 		PageHelper.startPage(pageNum, pageSize);
 		
 		TbSpecificationOptionExample example=new TbSpecificationOptionExample();
-		TbSpecificationOptionExample.Criteria criteria = example.createCriteria();
+		Criteria criteria = example.createCriteria();
 		
 		if(specificationOption!=null){			
 						if(specificationOption.getOptionName()!=null && specificationOption.getOptionName().length()>0){

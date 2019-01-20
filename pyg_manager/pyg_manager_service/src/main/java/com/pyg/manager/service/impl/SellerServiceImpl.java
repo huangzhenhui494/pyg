@@ -7,6 +7,7 @@ import com.pyg.manager.service.SellerService;
 import com.pyg.mapper.TbSellerMapper;
 import com.pyg.pojo.TbSeller;
 import com.pyg.pojo.TbSellerExample;
+import com.pyg.pojo.TbSellerExample.Criteria;
 import com.pyg.utils.PageResult;
 import com.pyg.utils.PygResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -85,7 +86,7 @@ public class SellerServiceImpl implements SellerService {
 		PageHelper.startPage(pageNum, pageSize);
 		
 		TbSellerExample example=new TbSellerExample();
-		TbSellerExample.Criteria criteria = example.createCriteria();
+		Criteria criteria = example.createCriteria();
 		
 		if(seller!=null){			
 						if(seller.getSellerId()!=null && seller.getSellerId().length()>0){

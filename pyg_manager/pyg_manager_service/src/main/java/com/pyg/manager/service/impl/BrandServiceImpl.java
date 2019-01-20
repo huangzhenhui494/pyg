@@ -7,6 +7,7 @@ import com.pyg.manager.service.BrandService;
 import com.pyg.mapper.TbBrandMapper;
 import com.pyg.pojo.TbBrand;
 import com.pyg.pojo.TbBrandExample;
+import com.pyg.pojo.TbBrandExample.Criteria;
 import com.pyg.utils.PageResult;
 import com.pyg.utils.PygResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -111,7 +112,7 @@ public class BrandServiceImpl implements BrandService {
 		//	创建example对象
 		TbBrandExample example = new TbBrandExample();
 		//	创建criteria对象
-		TbBrandExample.Criteria createCriteria = example.createCriteria();
+		Criteria createCriteria = example.createCriteria();
 		//	设置参数
 		//	判断参数是否存在
 		if(brand.getName() != null && !"".equals(brand.getName())){

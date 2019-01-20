@@ -161,4 +161,10 @@
     set spec_name = #{specName,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <!--查询规格属性:加载下拉列表-->
+  <select id="findSpecOptionList" resultType="map">
+    select id,spec_name as text from tb_specification
+  </select>
+
 </mapper>

@@ -26,7 +26,7 @@ public class UploadController {
 	
 	@RequestMapping("/upload")
 	public PygResult uploadPic(MultipartFile file) {
-		
+
 		try {
 			// 获取文件名称
 			String originalfile = file.getOriginalFilename();

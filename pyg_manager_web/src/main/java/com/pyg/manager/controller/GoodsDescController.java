@@ -27,7 +27,7 @@ public class GoodsDescController {
 	 * @return
 	 */
 	@RequestMapping("/findAll")
-	public List<TbGoodsDesc> findAll(){
+	public List<TbGoodsDesc> findAll(){			
 		return goodsDescService.findAll();
 	}
 	

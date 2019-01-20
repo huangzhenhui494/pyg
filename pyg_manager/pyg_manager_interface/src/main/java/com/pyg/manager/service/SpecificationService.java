@@ -1,10 +1,11 @@
 package com.pyg.manager.service;
-
 import com.pyg.pojo.TbSpecification;
 import com.pyg.utils.PageResult;
 import com.pyg.vo.Specification;
 
 import java.util.List;
+import java.util.Map;
+
 /**
  * 服务层接口
  * @author Administrator
@@ -59,5 +60,13 @@ public interface SpecificationService {
 	 * @return
 	 */
 	public PageResult findPage(TbSpecification specification, int pageNum, int pageSize);
-	
+
+	/**
+	 * 需求:查询规格属性值,加载下拉列表
+	 * 参数:无
+	 * 返回值:List<Map>
+	 * 方法:findSpecOptionList();
+	 */
+	public List<Map> findSpecOptionList();
+
 }

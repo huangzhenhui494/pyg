@@ -1,26 +1,24 @@
 package com.pyg.shop.controller;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.pyg.manager.service.SellerService;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.pyg.manager.service.SellerService;
+import java.util.HashMap;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/login")
 public class SellerLoginController {
 
 	//	注入远程service
-	@Reference
+	@Reference(timeout = 1000000)
 	private SellerService sellerService;
-	
+
 	/**
 	 * 需求:获取当前用户的登录信息
-	 * @param username
 	 * @return
 	 */
 	@RequestMapping("/loadLoginName")

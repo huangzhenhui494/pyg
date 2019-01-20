@@ -1,10 +1,10 @@
 package com.pyg.manager.service;
 
+import java.util.List;
+
 import com.pyg.pojo.TbBrand;
 import com.pyg.utils.PageResult;
 import com.pyg.utils.PygResult;
-
-import java.util.List;
 
 /**
  * @author huangzhenhui

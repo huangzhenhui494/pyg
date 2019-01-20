@@ -10,11 +10,13 @@ import com.pyg.pojo.TbSpecification;
 import com.pyg.pojo.TbSpecificationExample;
 import com.pyg.pojo.TbSpecificationOption;
 import com.pyg.pojo.TbSpecificationOptionExample;
+import com.pyg.pojo.TbSpecificationOptionExample.Criteria;
 import com.pyg.utils.PageResult;
 import com.pyg.vo.Specification;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 服务实现层
@@ -86,7 +88,7 @@ public class SpecificationServiceImpl implements SpecificationService {
 		//	获取example对象
 		TbSpecificationOptionExample example = new TbSpecificationOptionExample();
 		//	创建Criteria对象
-		TbSpecificationOptionExample.Criteria criteria = example.createCriteria();
+		Criteria criteria = example.createCriteria();
 		//	设置查询参数
 		criteria.andSpecIdEqualTo(tbSpecification.getId());
 		
@@ -119,7 +121,7 @@ public class SpecificationServiceImpl implements SpecificationService {
 		//	获取example对象
 		TbSpecificationOptionExample example = new TbSpecificationOptionExample();
 		//	创建Criteria对象
-		TbSpecificationOptionExample.Criteria criteria = example.createCriteria();
+		Criteria criteria = example.createCriteria();
 		//	设置查询参数
 		criteria.andSpecIdEqualTo(id);
 		List<TbSpecificationOption> tbSpecificationOptionList = specificationOptionMapper.selectByExample(example);
@@ -137,7 +139,7 @@ public class SpecificationServiceImpl implements SpecificationService {
 			//	获取example对象
 			TbSpecificationOptionExample example = new TbSpecificationOptionExample();
 			//	创建Criteria对象
-			TbSpecificationOptionExample.Criteria criteria = example.createCriteria();
+			Criteria criteria = example.createCriteria();
 			//	设置查询参数
 			criteria.andSpecIdEqualTo(id);
 			specificationOptionMapper.deleteByExample(example);
@@ -162,6 +164,17 @@ public class SpecificationServiceImpl implements SpecificationService {
 
 		Page<TbSpecification> page = (Page<TbSpecification>) specificationMapper.selectByExample(example);
 		return new PageResult(page.getTotal(), page.getResult());
+	}
+
+	/**
+	 * 需求:查询规格属性值,加载下拉列表
+	 * 参数:无
+	 * 返回值:List<Map>
+	 * 方法:findSpecOptionList();
+	 */
+	@Override
+	public List<Map> findSpecOptionList() {
+		return specificationMapper.findSpecOptionList();
 	}
 
 }

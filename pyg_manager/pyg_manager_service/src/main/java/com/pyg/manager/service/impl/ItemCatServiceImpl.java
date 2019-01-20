@@ -7,6 +7,7 @@ import com.pyg.manager.service.ItemCatService;
 import com.pyg.mapper.TbItemCatMapper;
 import com.pyg.pojo.TbItemCat;
 import com.pyg.pojo.TbItemCatExample;
+import com.pyg.pojo.TbItemCatExample.Criteria;
 import com.pyg.utils.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -84,7 +85,7 @@ public class ItemCatServiceImpl implements ItemCatService {
 		PageHelper.startPage(pageNum, pageSize);
 
 		TbItemCatExample example = new TbItemCatExample();
-		TbItemCatExample.Criteria criteria = example.createCriteria();
+		Criteria criteria = example.createCriteria();
 
 		if (itemCat != null) {
 			if (itemCat.getName() != null && itemCat.getName().length() > 0) {
@@ -106,7 +107,7 @@ public class ItemCatServiceImpl implements ItemCatService {
 		// 创建example对象
 		TbItemCatExample example = new TbItemCatExample();
 		// 创建Criteria对象
-		TbItemCatExample.Criteria criteria = example.createCriteria();
+		Criteria criteria = example.createCriteria();
 		// 设置根据parentId查询参数,根据父id
 		criteria.andParentIdEqualTo(parentId);
 		// 返回list

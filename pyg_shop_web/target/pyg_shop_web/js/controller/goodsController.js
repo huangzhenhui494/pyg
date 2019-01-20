@@ -122,6 +122,7 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 		});
 	})
 
+
 	//监控模板id变化,查询模板数据
 	$scope.$watch('entity.goods.typeTemplateId',function (newValue,oldValue) {
 		// 查询模板对象值
@@ -131,7 +132,16 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 			$scope.typeTemplate = data;
 			// 获取模板中的品牌数据
 			$scope.typeTemplate.brandIds = JSON.parse($scope.typeTemplate.brandIds)
+			// 获取模板中 扩展属性
+			$scope.entity.goodsDesc.customAttributeItems = JSON.parse($scope.typeTemplate.customAttributeItems)
 		})
+
+		// 根据模板id查询规格属性和对应的规格选项
+			// 调用模板服务的方法
+			typeTemplateService.findSpecOptionListByTypeId(newValue).success(function(data){
+				$scope.specList = data;
+				console.log("123213213l1kjjjjjjjjjjjjjjjjjjjjjjj")
+			})
 	})
 	
 	
@@ -164,5 +174,123 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 	$scope.removeImageEntity = function(index){
 		$scope.entity.goodsDesc.itemImages.splice(index,1)
 	}
+
+	// 定义选中规格属性事件
+	$scope.updateSpecAttribute = function($event,text,name){
+		// 获取实体中规格选项的值
+		var specList = $scope.entity.goodsDesc.specificationItems;
+
+		// 循环规格选项值
+		for(var i=0;i<specList.length;i++){
+			// 判断选择的是哪个属性
+			if(specList[i].attributeName == text){
+				// 判断是否选中事件
+				if($event.target.checked){
+					// 如果再次选中了一个,把规格选项数据结构中
+					specList[i].attributeValue.push(name)
+				}else{
+					// 不然的话就是取消事件
+					specList[i].attributeValue.splice(specList[i].attributeValue.indexOf(name),1);
+				}
+				// 选的就一个值,相等了就不需要再循环了
+				return;
+			}
+		}
+
+		// 如果商品描述中规格书型没值,把选中的值推送到集合中
+		// 第一次点击规格属性选项值
+		//[{"attributeName":"网络制式","attributeValue":["移动3G"]}]
+		specList.push({attributeName:text,attributeValue:[name]})
+	}
+
+	// 定义函数,封装规格选项组合成商品最小销售单元
+	$scope.createSkuItemList = function () {
+
+		// 初始化规格数据组合
+		$scope.entity.itemList = [{
+			spec:{},
+			price:99999,
+			stockCount:0,
+			status:'0',
+			isDefault:'0'}]
+		// 获取选中的规格属性的值
+		// [{"attributeName":"网络","attributeValue":["电信2G","联通2G"]}
+		var specList = $scope.entity.goodsDesc.specificationItems;
+
+		// 循环规格属性值,组合sku最小销售单元商品数据
+		for(var i=0;i<specList.length;i++){
+
+			/*
+			第一次循环  itemList=
+			[{spec:{"网络":"电信2G"},price:99999,stockCount:0,status:'0',isDefault:'0'},
+			{"网络":"联通2G"},price:99999,stockCount:0,status:'0',isDefault:'0'}]
+			*/
+
+			/*
+			第二次循环  传递 网络制式 :3g,4g
+
+			 */
+
+			// 添加一列
+			$scope.entity.itemList = addColumn($scope.entity.itemList,specList[i].attributeName,specList[i].attributeValue);
+		}
+	}
+
+
+	addColumn = function (list,name,values) {
+
+		var newList = [];
+
+		// 第一次循环数据 {spec:{},price:99999,stockCount:0,status:'0',isDefault:'0'}
+		// 第二次循环数据 两个对象
+		// 循环list集合数据
+		for(var i=0;i<list.length;i++){
+			// 第一次循环的第一个对象{spec:{},price:99999,stockCount:0,status:'0',isDefault:'0'}
+			// 第二次循环的第一个对象{spec:{"网络":"电信2G"},price:99999,stockCount:0,status:'0',isDefault:'0'}
+			// 获取一个旧的对象
+			var oldRow = list[i];
+
+			// 第一次循环values["电信2G","联通2G"]
+			// 第二次循环values["16G",64G]
+
+			// 第二个循环
+			for(var j=0;j<values.length;j++){
+				// {spec:{},price:99999,stockCount:0,status:'0',isDefault:'0'}
+				// 深克隆操作,新创建一行数据
+				// 第一次的是{spec:{},price:99999,stockCount:0,status:'0',isDefault:'0'}
+				// 第二次循环的是上面的list[i]即list[1]也就是{spec:{"网络":"电信2G"},price:99999,stockCount:0,status:'0',isDefault:'0'}
+				// 所以第二次会再后面再加上一个对象变成
+				// {spec:{"网络":"电信2G","机身内存":"16G"},price:99999,stockCount:0,status:'0',isDefault:'0'}
+				var newRow = JSON.parse(JSON.stringify(oldRow));
+				newRow.spec[name] = values[j];
+
+				// j:循环第一次{spec:{"网络":"电信2G"},price:99999,stockCount:0,status:'0',isDefault:'0'}
+				// j:循环第一次{spec:{"网络":"联通2G"},price:99999,stockCount:0,status:'0',isDefault:'0'}
+				// 推送到集合里
+				newList.push(newRow);
+
+			}
+		}
+		// 第一次循环,点了两个属性,就是两行
+		//[{spec:{"网络":"电信2G"},price:99999,stockCount:0,status:'0',isDefault:'0'},{"网络":"联通2G"},price:99999,stockCount:0,status:'0',isDefault:'0'}]
+		return newList;
+	};
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });
