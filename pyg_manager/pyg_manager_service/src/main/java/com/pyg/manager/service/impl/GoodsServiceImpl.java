@@ -272,7 +272,6 @@ public class GoodsServiceImpl implements GoodsService {
 			// 要使用goodsMapper.updateByPrimaryKey(tbGoods);
 			// 这样的话就没有判断是否为空,直接赋值
 		}
-		int x = 1/0;
 	}
 
 

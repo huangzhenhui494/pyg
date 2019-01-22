@@ -13,15 +13,6 @@
     <artifactId>pyg_shop_web</artifactId>
     <packaging>war</packaging>
 
-    <!--  <name>pyg_shop_web Maven Webapp</name>
-      &lt;!&ndash; FIXME change it to the project's website &ndash;&gt;
-      <url>http://www.example.com</url>
-
-      <properties>
-          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-          <maven.compiler.source>1.7</maven.compiler.source>
-          <maven.compiler.target>1.7</maven.compiler.target>
-      </properties>-->
 
     <!-- 商家表现层: 1,servlet 2,服务接口 3,spring 4,引入服务:dubbo,zookeeper -->
     <dependencies>
