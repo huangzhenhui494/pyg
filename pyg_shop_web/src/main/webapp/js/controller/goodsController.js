@@ -1,5 +1,5 @@
  //控制层 
-app.controller('goodsController' ,function($scope,$controller,goodsService,itemCatService,uploadService,typeTemplateService){
+app.controller('goodsController' ,function($scope,$location,$controller,goodsService,itemCatService,uploadService,typeTemplateService){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -8,6 +8,7 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 		goodsService.findAll().success(
 			function(response){
 				$scope.list=response;
+
 			}			
 		);
 	}    
@@ -23,10 +24,32 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 	}
 	
 	//查询实体 
-	$scope.findOne=function(id){				
+	$scope.findOne=function(){
+
+		// 接收参数
+		// 这样既可以接收ng-click的参数,也可以接收其他页面跳转传递的参数(路由)
+		var id = $location.search()["id"];
+		// 判断页面传递的参数是否存在
+		if(id == null){
+			return;
+		}
+		// 根据id查询
 		goodsService.findOne(id).success(
 			function(response){
-				$scope.entity= response;					
+				$scope.entity= response;
+				// 回显描述信息
+                editor.html($scope.entity.goodsDesc.introduction);
+                // 回显图片属性
+                $scope.entity.goodsDesc.itemImages =  JSON.parse($scope.entity.goodsDesc.itemImages);
+                // 回显扩展属性
+                $scope.entity.goodsDesc.customAttributeItems = JSON.parse( $scope.entity.goodsDesc.customAttributeItems);
+                // 回显规格属性
+                $scope.entity.goodsDesc.specificationItems = JSON.parse($scope.entity.goodsDesc.specificationItems);
+                // 回显规格属性选项组合sku
+                for(var i=0;i<$scope.entity.itemList.length;i++){
+                    $scope.entity.itemList[i].spec = JSON.parse($scope.entity.itemList[i].spec)
+                }
+
 			}
 		);				
 	}
@@ -35,11 +58,13 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 	$scope.save=function(){				
 		var serviceObject;//服务层对象  				
 		if($scope.entity.goods.id!=null){//如果有ID
-			serviceObject=goodsService.update( $scope.entity ); //修改  
+			// 获取富文本编辑器的数据
+			$scope.entity.goodsDesc.introduction = editor.html();
+			serviceObject=goodsService.update( $scope.entity ); //修改
 		}else{
 			// 获取富文本编辑器的数据
 			$scope.entity.goodsDesc.introduction = editor.html();
-			serviceObject=goodsService.add( $scope.entity  );//增加 
+			serviceObject=goodsService.add( $scope.entity  );//增加
 		}				
 		serviceObject.success(
 			function(response){
@@ -132,9 +157,15 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 			$scope.typeTemplate = data;
 			// 获取模板中的品牌数据
 			$scope.typeTemplate.brandIds = JSON.parse($scope.typeTemplate.brandIds)
-			// 获取模板中 扩展属性
-			$scope.entity.goodsDesc.customAttributeItems = JSON.parse($scope.typeTemplate.customAttributeItems)
-		})
+
+            // 判断
+            // 当id不存在,即不是修改状态时,才赋值
+            if($location.search()["id"] == null){
+                // 获取模板中 扩展属性
+                $scope.entity.goodsDesc.customAttributeItems = JSON.parse($scope.typeTemplate.customAttributeItems)
+            }
+
+        })
 
 		// 根据模板id查询规格属性和对应的规格选项
 			// 调用模板服务的方法
@@ -274,23 +305,47 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 		// 第一次循环,点了两个属性,就是两行
 		//[{spec:{"网络":"电信2G"},price:99999,stockCount:0,status:'0',isDefault:'0'},{"网络":"联通2G"},price:99999,stockCount:0,status:'0',isDefault:'0'}]
 		return newList;
-	};
-	
+	}
 
 
+	// 定义状态字符串数组
+	$scope.state = ["未审核","已审核","审核未通过","关闭"];
+
+	// 定义封装分类名称数组
+	$scope.itemCatList = [];
+
+	// 查询商品分类
+	$scope.findAllCatList = function () {
+		// 调用分类服务
+		itemCatService.findAll().success(function(data){
+			var value = '';
+			// 循环返回的集合
+			for(var i=0;i<data.length;i++){
+				// 角标和角标的值
+				$scope.itemCatList[data[i].id] = data[i].name;
+			}
+
+		});
+	}
+
+	// 定义检测规格选项是否选中的函数
+    // 选中的话返回true
+    $scope.isAttributeChecked = function (specName,value) {
+	    // 获取商品规格属性值
+        var specList = $scope.entity.goodsDesc.specificationItems;
+        // 循环规格属性
+        for(var i=0;i<specList.length;i++){
+            // 判断选择的属性是属于哪个属性分类
+            if(specList[i].attributeName == specName){
+                // 判断规格选项中是否包含此时选中的选项值
+                if(specList[i].attributeValue.indexOf(value)>=0){
+                    return true;
+                }
+                return false;
+            }
+        }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 });

@@ -59,7 +59,7 @@ public class GoodsController {
 	 * @return
 	 */
 	@RequestMapping("/update")
-	public PygResult update(@RequestBody TbGoods goods){
+	public PygResult update(@RequestBody Goods goods){
 		try {
 			goodsService.update(goods);
 			return new PygResult(true, "修改成功");
@@ -75,7 +75,7 @@ public class GoodsController {
 	 * @return
 	 */
 	@RequestMapping("/findOne")
-	public TbGoods findOne(Long id){
+	public Goods findOne(Long id){
 		return goodsService.findOne(id);		
 	}
 	
@@ -94,10 +94,10 @@ public class GoodsController {
 			return new PygResult(false, "删除失败");
 		}
 	}
-	
-		/**
+
+	/**
 	 * 查询+分页
-	 * @param brand
+	 * @param goods
 	 * @param page
 	 * @param rows
 	 * @return
@@ -106,5 +106,20 @@ public class GoodsController {
 	public PageResult search(@RequestBody TbGoods goods, int page, int rows  ){
 		return goodsService.findPage(goods, page, rows);		
 	}
-	
+
+	/**
+	 * 需求:更新商品状态(运营商要审核商家的商品)
+	 * 请求:updateGoodsStatus
+	 * 参数:Long[] ids , String status
+	 * 返回值:PygResult
+	 * @param ids
+	 * @param status
+	 * @return
+	 */
+	@RequestMapping("/updateGoodsStatus")
+	public PygResult updateGoodsStatus(Long[] ids, String status) {
+		// 调用远程服务对象
+		return goodsService.updateGoodsStatus(ids,status);
+	}
+
 }

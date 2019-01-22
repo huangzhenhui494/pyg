@@ -40,7 +40,7 @@
 </head>
 
 <body ng-app="pyg" ng-controller="goodsController"
-	  class="hold-transition skin-red sidebar-mini" ng-init="findItemCat1List();">
+	  class="hold-transition skin-red sidebar-mini" ng-init="findItemCat1List();findOne();">
 
 <!-- 正文区域 -->
 <section class="content">
@@ -118,7 +118,6 @@
 								<textarea name="content"
 										  style="width: 800px; height: 400px; visibility: hidden;"></textarea>
 						</div>
-
 						<div class="col-md-2 title rowHeight2x">包装列表</div>
 						<div class="col-md-10 data rowHeight2x">
 
@@ -208,7 +207,7 @@
 								<div class="col-md-10 data">
 
 									<span ng-repeat="spec1 in specIds.options">
-										<input type="checkbox" ng-click="updateSpecAttribute($event,specIds.text,spec1	.optionName);createSkuItemList();">{{spec1.optionName}}
+										<input type="checkbox" ng-checked="isAttributeChecked(specIds.text,spec1.optionName)" ng-click="updateSpecAttribute($event,specIds.text,spec1.optionName);createSkuItemList();">{{spec1.optionName}}
 									</span>
 
 								</div>
