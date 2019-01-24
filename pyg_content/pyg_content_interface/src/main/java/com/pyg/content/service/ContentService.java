@@ -58,5 +58,16 @@ public interface ContentService {
 	 * @return
 	 */
 	public PageResult findPage(TbContent content, int pageNum, int pageSize);
-	
+
+	/**
+	 * 需求:根据分类id查询不同区域的广告内容信息
+	 * 参数:Long categoryId
+	 * 业务思想:
+	 * 页面广告被分为不同的类型,不同类型的广告通过不同的分类id进行加载
+	 * 大广告:1
+	 * 今日推荐:2
+	* 返回值:List<TbContent>
+ 	 */
+	public List<TbContent> findContentListByCategoryId(Long categoryId);
+
 }

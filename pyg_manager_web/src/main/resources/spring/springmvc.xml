@@ -29,6 +29,13 @@
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="pinyougou-manager-web" />
 	<dubbo:registry address="zookeeper://192.168.25.125:2181"/>
-	<dubbo:annotation package="com.pyg.manager.controller" />  	
+	<dubbo:annotation package="com.pyg.manager.controller" />
+
+	<!-- 配置文件上传支持 -->
+	<!-- 异步上传,最好指定个id,首字母小写 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- 支持文件上传你大小 byte -->
+		<property name="maxUploadSize" value="1024000000"></property>
+	</bean>
 
 </beans>
