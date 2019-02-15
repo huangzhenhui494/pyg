@@ -79,7 +79,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <!-- 前台启动端口:从9000开始 -->
-                    <port>8084</port>
+                    <port>8085</port>
                     <!-- /把项目发布tomcat服务器ROOT目录下. -->
                     <path>/</path>
                 </configuration>

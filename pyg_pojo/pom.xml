@@ -13,15 +13,12 @@
     <artifactId>pyg_pojo</artifactId>
     <packaging>jar</packaging>
 
- <!--   <name>pyg_pojo</name>
-    &lt;!&ndash; FIXME change it to the project's website &ndash;&gt;
-    <url>http://www.example.com</url>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
--->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-solr</artifactId>
+            <version>1.5.5.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -13,15 +13,6 @@
     <artifactId>pyg_dao</artifactId>
     <packaging>jar</packaging>
 
-    <!--  <name>pyg_dao</name>
-      &lt;!&ndash; FIXME change it to the project's website &ndash;&gt;
-      <url>http://www.example.com</url>
-
-      <properties>
-          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-          <maven.compiler.source>1.7</maven.compiler.source>
-          <maven.compiler.target>1.7</maven.compiler.target>
-      </properties>-->
 
     <!-- dao持久层:访问数据库 1,mybatis,2,数据源 3,mysql驱动 ,4,依赖pojo -->
     <dependencies>
