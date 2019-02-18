@@ -11,7 +11,9 @@ import com.pyg.pojo.TbGoodsExample.Criteria;
 import com.pyg.utils.PageResult;
 import com.pyg.utils.PygResult;
 import com.pyg.vo.Goods;
+import org.apache.activemq.command.ActiveMQTopic;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
@@ -257,11 +259,19 @@ public class GoodsServiceImpl implements GoodsService {
 		return goods;
 	}
 
+	// 注入消息发送的模板
+	@Autowired
+	private JmsTemplate jmsTemplate;
+
+	// 注入消息发送的目的地
+	@Autowired
+	private ActiveMQTopic topic;
+
 	/**
 	 * 批量删除
 	 */
 	@Override
-	public void delete(Long[] ids) {
+	public void delete(final Long[] ids) {
 		for(Long id:ids){
 			// 根据id查询商品对象
 			TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);
@@ -272,6 +282,9 @@ public class GoodsServiceImpl implements GoodsService {
 			// 要使用goodsMapper.updateByPrimaryKey(tbGoods);
 			// 这样的话就没有判断是否为空,直接赋值
 		}
+
+		// 发送消息
+		jmsTemplate.convertAndSend(ids);
 	}
 
 
@@ -317,19 +330,25 @@ public class GoodsServiceImpl implements GoodsService {
 	 * @param ids
 	 * @param status
 	 * @return
+	 * 当我们商品上架的时候,我们要发送消息同步索引库
 	 */
 	@Override
-	public PygResult updateGoodsStatus(Long[] ids, String status) {
+	public PygResult updateGoodsStatus(final Long[] ids, String status) {
 		try {
 			// 循环数组ids
 			for (Long id : ids) {
 				// 根据id把商品对象查询
 				TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);
-				tbGoods.setAuditStatus(status);
 				// 更新商品状态值
+				tbGoods.setAuditStatus(status);
+				// 更新
 				goodsMapper.updateByPrimaryKeySelective(tbGoods);
-				// 更新成功
 			}
+
+			// 传递消息  spu 的id
+			jmsTemplate.convertAndSend(ids);
+
+			// 修改成功
 			return new PygResult(true,"修改成功");
 
 		} catch (Exception e) {

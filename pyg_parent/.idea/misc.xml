@@ -29,17 +29,10 @@
         <option value="$PROJECT_DIR$/../pyg_search/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_search_web/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_solr_utils/pom.xml" />
-        <option value="$PROJECT_DIR$/../pyg-solr-html/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/../pyg_manager_web/pyg_manager_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/../pyg_manager_web/pyg_manager_service/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
