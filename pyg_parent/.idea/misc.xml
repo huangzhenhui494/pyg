@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../pyg_content/pyg_content_service" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg_html" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_portal_web" />
@@ -29,6 +30,8 @@
         <option value="$PROJECT_DIR$/../pyg_search/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_search_web/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_solr_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_html_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_html/pom.xml" />
       </list>
     </option>
   </component>
