@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../pyg_cart/pyg_cart_service" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg_cart_web" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_cas_demo1" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_cas_demo2" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_content/pyg_content_service" />
@@ -45,6 +47,8 @@
         <option value="$PROJECT_DIR$/../pyg_sms/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_cas_demo1/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_cas_demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_cart_web/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_cart/pom.xml" />
       </list>
     </option>
   </component>
