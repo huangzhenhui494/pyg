@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-pay/pyg-pay-service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_cart/pyg_cart_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_cart_web" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_cas_demo1" />
@@ -10,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../pyg_html" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_manager/pyg_manager_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg_pay/pyg_pay_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_portal_web" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_search/pyg_search_interface" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_search/pyg_search_service" />
@@ -49,6 +51,8 @@
         <option value="$PROJECT_DIR$/../pyg_cas_demo2/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_cart_web/pom.xml" />
         <option value="$PROJECT_DIR$/../pyg_cart/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_pay/pom.xml" />
       </list>
     </option>
   </component>

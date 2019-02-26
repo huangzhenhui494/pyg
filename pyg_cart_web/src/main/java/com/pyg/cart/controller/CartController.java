@@ -42,7 +42,7 @@ public class CartController {
      *                          判断是否存在相同的商品,如果有,数量相加,否则直接添加
      *              2.2.1.2 不属于商家商品,构造商品添加即可
      */
-    @RequestMapping("/addGoodsToCartList")
+    @RequestMapping("/cart")
     public PygResult addGoodsToCartList(String id, Integer num, HttpServletRequest request, HttpServletResponse response){
 
 

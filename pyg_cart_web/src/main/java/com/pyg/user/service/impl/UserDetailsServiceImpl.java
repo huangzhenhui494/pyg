@@ -11,20 +11,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDetailsServiceImpl implements UserDetailsService {
-	
 
+    @Override
+    public UserDetails loadUserByUsername(String username)
+            throws UsernameNotFoundException {
 
-	@Override
-	public UserDetails loadUserByUsername(String username)
-			throws UsernameNotFoundException {
-		//定义角色封装集合
-		List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
-		//添加角色
-		authorities.add(new SimpleGrantedAuthority("ROLE_USER"));		
-		//调用商家服务对象,查询商家密码
-	
-		return new User(username,"", authorities);
-		
-	}
+        // 定义角色封装集合
+        List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
+        // 添加角色
+        authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
+
+        //	调用商家的服务对象,查询商家的密码,主键(用户名查询)
+        //	动态匹配密码
+        return new User(username, "", authorities);
+    }
 
 }
